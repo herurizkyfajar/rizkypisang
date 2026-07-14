@@ -251,13 +251,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <a href="#" class="flex items-center gap-3 group">
-                    <div class="w-12 h-12 bg-white rounded-2xl shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <span class="text-2xl">🍌</span>
-                    </div>
-                    <div>
-                        <span class="text-xl font-bold text-white tracking-tight">Rizky Pisang</span>
-                        <p class="text-xs text-green-300/70 -mt-0.5 font-medium">Sejak 1992</p>
-                    </div>
+                    <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto bg-white rounded-[5px] p-1 group-hover:scale-105 transition-transform duration-300">
                 </a>
                 <div class="hidden md:flex items-center gap-8">
                     <a href="#beranda" class="text-white/70 hover:text-white transition-colors font-medium text-sm tracking-wide">Beranda</a>
@@ -576,7 +570,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <div>
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="w-12 h-12 bg-green-600 rounded-2xl flex items-center justify-center"><span class="text-2xl">🍌</span></div>
+                        <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto">
                         <div><span class="text-xl font-bold">Rizky Pisang</span><p class="text-xs text-gray-400">Sejak 1992</p></div>
                     </div>
                     <p class="text-gray-400 text-sm leading-relaxed">Pusat grosir pisang dan sembako terlengkap di Cimahi. Menyediakan aneka pisang segar, olahan, dan kebutuhan pokok dengan harga grosir.</p>
