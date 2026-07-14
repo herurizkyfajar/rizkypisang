@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rizky Pisang - Pusat Grosir Pisang & Sembako Terlengkap di Cimahi</title>
     <meta name="description" content="Pusat grosir pisang dan sembako terlengkap di Cimahi sejak 1992. Menyediakan aneka pisang segar, olahan, dan kebutuhan pokok dengan harga grosir.">
-    <link rel="icon" type="image/png" href="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang.png">
+    <link rel="icon" type="image/png" href="/Rizky-Pisang.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -251,7 +251,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <a href="#" class="flex items-center gap-3 group">
-                    <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto bg-white rounded-[5px] p-1 group-hover:scale-105 transition-transform duration-300">
+                    <img src="/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto bg-white rounded-[5px] p-1 group-hover:scale-105 transition-transform duration-300">
                 </a>
                 <div class="hidden md:flex items-center gap-8">
                     <a href="#beranda" class="text-white/70 hover:text-white transition-colors font-medium text-sm tracking-wide">Beranda</a>
@@ -365,7 +365,7 @@
 
                         <!-- Main Circle with Sembako Image -->
                         <div class="absolute inset-[100px] flex items-center justify-center overflow-hidden">
-                            <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang-18.png" alt="Aneka Produk Rizky Pisang" class="w-full h-full object-contain drop-shadow-2xl">
+                            <img src="/Rizky-Pisang-18.png" alt="Aneka Produk Rizky Pisang" class="w-full h-full object-contain drop-shadow-2xl">
                         </div>
 
                         <!-- Floating Tags -->
@@ -428,7 +428,7 @@
                 <div class="relative reveal">
                     <div class="absolute -inset-4 bg-gradient-to-r from-green-600/20 to-green-400/20 rounded-3xl blur-xl"></div>
                     <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
-                        <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang-18.png" alt="Aneka Produk Rizky Pisang" class="w-full h-80 object-contain bg-white">
+                        <img src="/Rizky-Pisang-18.png" alt="Aneka Produk Rizky Pisang" class="w-full h-80 object-contain bg-white">
                         <div class="p-8">
                             <div class="flex items-center gap-4 mb-4">
                                 <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center"><span class="text-2xl">🏪</span></div>
@@ -570,7 +570,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <div>
                     <div class="flex items-center gap-3 mb-4">
-                        <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto bg-white rounded-[5px] p-1">
+                        <img src="/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto bg-white rounded-[5px] p-1">
                     </div>
                     <p class="text-gray-400 text-sm leading-relaxed">Pusat grosir pisang dan sembako terlengkap di Cimahi. Menyediakan aneka pisang segar, olahan, dan kebutuhan pokok dengan harga grosir.</p>
                 </div>
