@@ -570,7 +570,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <div>
                     <div class="flex items-center gap-3 mb-4">
-                        <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto">
+                        <img src="https://rizkypisang.com/wp-content/uploads/2025/10/Rizky-Pisang.png" alt="Rizky Pisang Logo" class="h-12 w-auto bg-white rounded-[5px] p-1">
                         <div><span class="text-xl font-bold">Rizky Pisang</span><p class="text-xs text-gray-400">Sejak 1992</p></div>
                     </div>
                     <p class="text-gray-400 text-sm leading-relaxed">Pusat grosir pisang dan sembako terlengkap di Cimahi. Menyediakan aneka pisang segar, olahan, dan kebutuhan pokok dengan harga grosir.</p>
