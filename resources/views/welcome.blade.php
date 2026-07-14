@@ -530,10 +530,10 @@
                             <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center"><span class="text-2xl">🏪</span></div>
                             <div><h3 class="font-bold text-gray-800 text-lg">Rizky Pisang - Cabang Utama</h3><p class="text-green-600 text-sm font-medium">Depan Alfamart Cisangkan</p></div>
                         </div>
-                        <div class="bg-green-50 rounded-xl p-4 mb-4"><p class="text-gray-700 text-sm leading-relaxed">📍 Jl. KH Usman Dhomiri RT 01 RW17 No 06<br>Kelurahan Padasuka, Kec. Cimahi Tengah<br>Kota Cimahi</p></div>
+                        <div class="bg-green-50 rounded-xl p-4 mb-4"><p class="text-gray-700 text-sm leading-relaxed">📍 Jl. Kyai H. Usman Dhomiri No.06, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40526</p></div>
                         <a href="https://web.whatsapp.com/send?phone=6287824443944&text=Halo%2C%20saya%20ingin%20kunjungi%20toko%20Rizky%20Pisang%20cabang%20utama" target="_blank" class="block w-full bg-green-800 text-white text-center py-3 rounded-xl font-bold hover:bg-green-700 transition-all text-sm">💬 Hubungi via WhatsApp</a>
                     </div>
-                    <div class="h-64"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.6!2d107.54!3d-6.88!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCimahi!5e0!3m2!1sid!2sid!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Rizky Pisang Cabang Utama - Jl. KH Usman Dhomiri Cimahi"></iframe></div>
+                    <div class="h-64"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1174.6745302989207!2d107.53235!3d-6.873611000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e45ea42efc13%3A0x6274c997b5d0d867!2srizky%20pisang!5e1!3m2!1sid!2sid!4v1784034703023!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Lokasi Rizky Pisang Cabang Utama - Jl. Kyai H. Usman Dhomiri Cimahi"></iframe></div>
                 </div>
                 <div class="bg-white rounded-3xl shadow-xl overflow-hidden reveal">
                     <div class="p-6">
@@ -541,10 +541,10 @@
                             <div class="w-14 h-14 bg-yellow-100 rounded-2xl flex items-center justify-center"><span class="text-2xl">🏬</span></div>
                             <div><h3 class="font-bold text-gray-800 text-lg">Rizky Pisang - Pasar Antri</h3><p class="text-yellow-600 text-sm font-medium">Los B 230 Cimahi</p></div>
                         </div>
-                        <div class="bg-yellow-50 rounded-xl p-4 mb-4"><p class="text-gray-700 text-sm leading-relaxed">📍 Pasar Antri Los B 230<br>Kota Cimahi</p></div>
+                        <div class="bg-yellow-50 rounded-xl p-4 mb-4"><p class="text-gray-700 text-sm leading-relaxed">📍 4G9Q+XFV, Jl. Sriwijaya, Setiamanah, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40524</p></div>
                         <a href="https://web.whatsapp.com/send?phone=6287824443944&text=Halo%2C%20saya%20ingin%20kunjungi%20toko%20Rizky%20Pisang%20Pasar%20Antri" target="_blank" class="block w-full bg-yellow-500 text-white text-center py-3 rounded-xl font-bold hover:bg-yellow-600 transition-all text-sm">💬 Hubungi via WhatsApp</a>
                     </div>
-                    <div class="h-64"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5!2d107.54!3d-6.89!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPasar+Antri+Cimahi!5e0!3m2!1sid!2sid!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Rizky Pisang Pasar Antri Los B 230 Cimahi"></iframe></div>
+                    <div class="h-64"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2349.3174463115397!2d107.53866!3d-6.880004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e518152610e7%3A0x70beabc72e8e8017!2sPasar%20antri!5e1!3m2!1sid!2sid!4v1784034724435!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Lokasi Rizky Pisang Pasar Antri Cimahi"></iframe></div>
                 </div>
             </div>
             <div class="mt-12 gradient-green rounded-3xl p-8 lg:p-12 text-center text-white relative overflow-hidden reveal">
