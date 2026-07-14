@@ -2,9 +2,16 @@
 
 > Pusat Grosir Pisang & Sembako Terlengkap di Cimahi - Sejak 1992
 
-## About
+Rizky Pisang adalah pusat grosir pisang dan sembako terpercaya di Kota Cimahi, berdiri sejak tahun 1992. Kami menyediakan berbagai jenis pisang segar dan olahan, serta aneka kebutuhan pokok.
 
-Rizky Pisang adalah pusat grosir pisang dan sembako terpercaya di Kota Cimahi, berdiri sejak tahun 1992. Kami menyediakan berbagai jenis pisang segar dan olahan, serta aneka kebutuhan pokok seperti beras, gula, kelapa, kacang, umbi-umbian, dan lainnya.
+## Links
+
+- [Beranda](https://update.rizkypisang.com/)
+- [Tentang Kami](https://update.rizkypisang.com/#tentang)
+- [Produk](https://update.rizkypisang.com/#produk)
+- [Lokasi](https://update.rizkypisang.com/#lokasi)
+- [WhatsApp](https://web.whatsapp.com/send?phone=6287824443944)
+- [Sitemap](https://update.rizkypisang.com/sitemap.xml)
 
 ## Contact
 
@@ -13,50 +20,43 @@ Rizky Pisang adalah pusat grosir pisang dan sembako terpercaya di Kota Cimahi, b
 
 ## Locations
 
-1. **Cabang Utama** - Jl. KH Usman Dhomiri RT 01 RW17 No 06, Kelurahan Padasuka, Kec. Cimahi Tengah, Kota Cimahi (Depan Alfamart Cisangkan)
-2. **Pasar Antri** - Los B 230, Kota Cimahi
+- **Cabang Utama**: Jl. KH Usman Dhomiri RT 01 RW17 No 06, Kelurahan Padasuka, Kec. Cimahi Tengah, Kota Cimahi
+- **Pasar Antri**: Los B 230, Kota Cimahi
 
 ## Products
 
 ### Pisang Segar
-- Pisang Ambon Lumut
-- Pisang Ambon Putih
-- Pisang Raja Cere
-- Pisang Muli
-- Pisang Siem
-- Pisang Kepok
-- Pisang Bangkawulu
-- Pisang Nangka
-- Pisang Raja Bulu
-- Pisang Kapas
+
+- [Pisang Ambon Lumut](https://update.rizkypisang.com/#produk)
+- [Pisang Ambon Putih](https://update.rizkypisang.com/#produk)
+- [Pisang Raja Cere](https://update.rizkypisang.com/#produk)
+- [Pisang Muli](https://update.rizkypisang.com/#produk)
+- [Pisang Siem](https://update.rizkypisang.com/#produk)
+- [Pisang Kepok](https://update.rizkypisang.com/#produk)
+- [Pisang Bangkawulu](https://update.rizkypisang.com/#produk)
+- [Pisang Nangka](https://update.rizkypisang.com/#produk)
+- [Pisang Raja Bulu](https://update.rizkypisang.com/#produk)
+- [Pisang Kapas](https://update.rizkypisang.com/#produk)
 
 ### Pisang Olahan
-- Keripik Pisang
-- Sale Pisang Matang
-- Sale Pisang Mentah
+
+- [Keripik Pisang](https://update.rizkypisang.com/#produk)
+- [Sale Pisang Matang](https://update.rizkypisang.com/#produk)
+- [Sale Pisang Mentah](https://update.rizkypisang.com/#produk)
 
 ### Sembako & Lainnya
-- Gas 3Kg
-- Aneka Bumbu Dapur
-- Aneka Gula Merah
-- Aneka Umbi
-- Arang Kayu
-- Arang Batok Kelapa
-- Batok Kelapa
-- Santan Kelapa
-- Kelapa Parud
-- Kelapa Sayur Butiran
+
+- [Gas 3Kg](https://update.rizkypisang.com/#produk)
+- [Aneka Bumbu Dapur](https://update.rizkypisang.com/#produk)
+- [Aneka Gula Merah](https://update.rizkypisang.com/#produk)
+- [Aneka Umbi](https://update.rizkypisang.com/#produk)
+- [Arang Kayu](https://update.rizkypisang.com/#produk)
+- [Arang Batok Kelapa](https://update.rizkypisang.com/#produk)
+- [Batok Kelapa](https://update.rizkypisang.com/#produk)
+- [Santan Kelapa](https://update.rizkypisang.com/#produk)
+- [Kelapa Parud](https://update.rizkypisang.com/#produk)
+- [Kelapa Sayur Butiran](https://update.rizkypisang.com/#produk)
 
 ### Perikanan
-- Ikan Lele
 
-## Pages
-
-- Beranda: /
-- Tentang Kami: /#tentang
-- Produk: /#produk
-- Lokasi: /#lokasi
-
-## Social
-
-- WhatsApp: https://web.whatsapp.com/send?phone=6287824443944
+- [Ikan Lele](https://update.rizkypisang.com/#produk)
