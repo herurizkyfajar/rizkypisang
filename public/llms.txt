@@ -1,0 +1,62 @@
+# Rizky Pisang
+
+> Pusat Grosir Pisang & Sembako Terlengkap di Cimahi - Sejak 1992
+
+## About
+
+Rizky Pisang adalah pusat grosir pisang dan sembako terpercaya di Kota Cimahi, berdiri sejak tahun 1992. Kami menyediakan berbagai jenis pisang segar dan olahan, serta aneka kebutuhan pokok seperti beras, gula, kelapa, kacang, umbi-umbian, dan lainnya.
+
+## Contact
+
+- Phone/WhatsApp: 087-824-443-944
+- Website: https://update.rizkypisang.com
+
+## Locations
+
+1. **Cabang Utama** - Jl. KH Usman Dhomiri RT 01 RW17 No 06, Kelurahan Padasuka, Kec. Cimahi Tengah, Kota Cimahi (Depan Alfamart Cisangkan)
+2. **Pasar Antri** - Los B 230, Kota Cimahi
+
+## Products
+
+### Pisang Segar
+- Pisang Ambon Lumut
+- Pisang Ambon Putih
+- Pisang Raja Cere
+- Pisang Muli
+- Pisang Siem
+- Pisang Kepok
+- Pisang Bangkawulu
+- Pisang Nangka
+- Pisang Raja Bulu
+- Pisang Kapas
+
+### Pisang Olahan
+- Keripik Pisang
+- Sale Pisang Matang
+- Sale Pisang Mentah
+
+### Sembako & Lainnya
+- Gas 3Kg
+- Aneka Bumbu Dapur
+- Aneka Gula Merah
+- Aneka Umbi
+- Arang Kayu
+- Arang Batok Kelapa
+- Batok Kelapa
+- Santan Kelapa
+- Kelapa Parud
+- Kelapa Sayur Butiran
+
+### Perikanan
+- Ikan Lele
+
+## Pages
+
+- Beranda: /
+- Tentang Kami: /#tentang
+- Produk: /#produk
+- Lokasi: /#lokasi
+
+## Social
+
+- WhatsApp: https://web.whatsapp.com/send?phone=6287824443944
