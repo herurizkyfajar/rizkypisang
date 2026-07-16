@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rizky Pisang - Pusat Grosir Pisang & Sembako Terlengkap di Cimahi</title>
     <meta name="description" content="Pusat grosir pisang dan sembako terlengkap di Cimahi sejak 1992. Menyediakan aneka pisang segar, olahan, dan kebutuhan pokok dengan harga grosir.">
+    <meta name="google-site-verification" content="LpBT9XpWG0YBjqbCjPtZ6JLxU4uAyyGtHk2WojSyp7M" />
     <link rel="icon" type="image/png" href="/Rizky-Pisang.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
