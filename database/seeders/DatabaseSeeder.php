@@ -134,6 +134,31 @@ class DatabaseSeeder extends Seeder
                 'sort_order' => $i + 1,
             ]);
         }
+
+        // Tepung
+        $tepung = Category::create([
+            'name' => 'Tepung',
+            'slug' => 'tepung',
+            'description' => 'Menjual berbagai jenis tepung',
+            'icon' => '🌾',
+            'sort_order' => 6,
+        ]);
+
+        $tepungProducts = [
+            ['name' => 'Tepung Terigu', 'slug' => 'tepung-terigu', 'image' => '/produk/tepung-terigu.webp'],
+            ['name' => 'Tepung Tapioka', 'slug' => 'tepung-tapioka', 'image' => '/produk/tepung-tapioka.webp'],
+            ['name' => 'Tepung Beras', 'slug' => 'tepung-beras', 'image' => '/produk/tepung-beras.webp'],
+            ['name' => 'Tepung Ketan Hitam', 'slug' => 'tepung-ketan-hitam', 'image' => '/produk/tepung-ketan-hitam.webp'],
+            ['name' => 'Tepung Ketan Putih', 'slug' => 'tepung-ketan-putih', 'image' => '/produk/tepung-ketan-putih.webp'],
+            ['name' => 'Tepung Maizena', 'slug' => 'tepung-maizena', 'image' => '/produk/tepung-maizena.webp'],
+        ];
+
+        foreach ($tepungProducts as $i => $product) {
+            Product::create([
+                ...$product,
+                'category_id' => $tepung->id,
+                'sort_order' => $i + 1,
+            ]);
+        }
     }
-}
 }
