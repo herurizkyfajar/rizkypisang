@@ -188,5 +188,29 @@ class DatabaseSeeder extends Seeder
                 'sort_order' => $i + 1,
             ]);
         }
+
+        // Mie
+        $mie = Category::create([
+            'name' => 'Mie',
+            'slug' => 'mie',
+            'description' => 'Menjual berbagai aneka mie',
+            'icon' => '🍜',
+            'sort_order' => 8,
+        ]);
+
+        $mieProducts = [
+            ['name' => 'Aneka Indomie', 'slug' => 'aneka-indomie', 'image' => '/produk/aneka-indomie.webp'],
+            ['name' => 'Aneka Mie Sedap', 'slug' => 'aneka-mie-sedap', 'image' => '/produk/aneka-mie-sedap.webp'],
+            ['name' => 'Aneka Sarimi', 'slug' => 'aneka-sarimi', 'image' => '/produk/aneka-sarimi.webp'],
+            ['name' => 'Aneka Pop Mie', 'slug' => 'aneka-pop-mie', 'image' => '/produk/aneka-pop-mie.webp'],
+        ];
+
+        foreach ($mieProducts as $i => $product) {
+            Product::create([
+                ...$product,
+                'category_id' => $mie->id,
+                'sort_order' => $i + 1,
+            ]);
+        }
     }
 }
