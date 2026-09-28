@@ -497,9 +497,11 @@
                 @endforeach
             </div>
             <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                @php $productIndex = 0; @endphp
                 @foreach($categories as $category)
                     @foreach($category->products as $product)
-                    <div class="product-card card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 reveal" data-category="{{ $category->slug }}">
+                    @php $productIndex++; @endphp
+                    <div class="product-card card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 reveal" data-category="{{ $category->slug }}" @if($productIndex > 12) style="display:none;" @endif>
                         <div class="relative overflow-hidden bg-gray-100 h-56">
                             <img src="{{ $product->image }}" alt="{{ $product->name }}" class="product-image w-full h-full object-cover" loading="lazy">
                             <div class="absolute top-3 left-3"><span class="bg-green-800 text-white text-xs font-bold px-3 py-1 rounded-full">{{ $category->name }}</span></div>
@@ -512,6 +514,14 @@
                     </div>
                     @endforeach
                 @endforeach
+            </div>
+            @php $totalProducts = $categories->sum(fn ($c) => $c->products->count()); @endphp
+            <div id="load-more-wrap" class="text-center mt-12" @if($totalProducts <= 12) style="display:none;" @endif>
+                <button id="load-more-btn" onclick="loadMoreProducts()"
+                        class="px-8 py-4 rounded-full font-bold border-2 border-green-800 text-green-800 hover:bg-green-800 hover:text-white transition-all">
+                    Tampilkan Lebih Banyak
+                </button>
+                <p id="load-more-info" class="text-sm text-gray-500 mt-3"></p>
             </div>
         </div>
     </section>
@@ -651,23 +661,55 @@
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-        // Product Filter
+        // Product Filter + Load More
+        const PAGE_SIZE = 12;
+        let currentCategory = 'all';
+        let visibleCount = PAGE_SIZE;
+
+        function applyProductVisibility(animate = false) {
+            const cards = Array.from(document.querySelectorAll('.product-card'));
+            const matched = cards.filter(card => currentCategory === 'all' || card.dataset.category === currentCategory);
+
+            cards.forEach(card => {
+                const inFilter = currentCategory === 'all' || card.dataset.category === currentCategory;
+                const index = matched.indexOf(card);
+                const shouldShow = inFilter && index < visibleCount;
+
+                card.style.display = shouldShow ? 'block' : 'none';
+                if (shouldShow) {
+                    card.classList.add('active');
+                    if (animate) card.style.animation = 'fadeIn 0.5s ease';
+                } else {
+                    card.style.animation = '';
+                }
+            });
+
+            const remaining = Math.max(matched.length - visibleCount, 0);
+            const wrap = document.getElementById('load-more-wrap');
+            const btn = document.getElementById('load-more-btn');
+            const info = document.getElementById('load-more-info');
+            wrap.style.display = remaining > 0 ? 'block' : 'none';
+            btn.textContent = `Tampilkan Lebih Banyak (${remaining} produk lagi)`;
+            info.textContent = `Menampilkan ${Math.min(visibleCount, matched.length)} dari ${matched.length} produk`;
+        }
+
         function filterProducts(category) {
-            const cards = document.querySelectorAll('.product-card');
+            currentCategory = category;
+            visibleCount = PAGE_SIZE;
             const buttons = document.querySelectorAll('.category-btn');
             buttons.forEach(btn => {
                 btn.classList.remove('active', 'bg-green-800', 'text-white');
                 if (btn.dataset.category === category) btn.classList.add('active');
             });
-            cards.forEach(card => {
-                if (category === 'all' || card.dataset.category === category) {
-                    card.style.display = 'block';
-                    card.style.animation = 'fadeIn 0.5s ease';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
+            applyProductVisibility(true);
         }
+
+        function loadMoreProducts() {
+            visibleCount += PAGE_SIZE;
+            applyProductVisibility(true);
+        }
+
+        applyProductVisibility();
 
         // Navbar scroll
         const navbar = document.getElementById('navbar');
