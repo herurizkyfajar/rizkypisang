@@ -45,16 +45,16 @@ class DatabaseSeeder extends Seeder
 
         // Pisang Segar
         $pisangProducts = [
-            ['name' => 'Pisang Ambon Lumut', 'slug' => 'pisang-ambon-lumut', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T223457.064.png'],
-            ['name' => 'Pisang Ambon Putih', 'slug' => 'pisang-ambon-putih', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T223143.124.png'],
-            ['name' => 'Pisang Raja Cere', 'slug' => 'pisang-raja-cere', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222844.320.png'],
-            ['name' => 'Pisang Muli', 'slug' => 'pisang-muli', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222654.511.png'],
-            ['name' => 'Pisang Siem', 'slug' => 'pisang-siem', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222449.495.png'],
-            ['name' => 'Pisang Kepok', 'slug' => 'pisang-kepok', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222302.180.png'],
-            ['name' => 'Pisang Bangkawulu', 'slug' => 'pisang-bangkawulu', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T221940.571.png'],
-            ['name' => 'Pisang Nangka', 'slug' => 'pisang-nangka', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T221629.265.png'],
-            ['name' => 'Pisang Raja Bulu', 'slug' => 'pisang-raja-bulu', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T221324.893.png'],
-            ['name' => 'Pisang Kapas', 'slug' => 'pisang-kapas', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T220912.281.png'],
+            ['name' => 'Pisang Ambon Lumut', 'slug' => 'pisang-ambon-lumut', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T223457.064.webp'],
+            ['name' => 'Pisang Ambon Putih', 'slug' => 'pisang-ambon-putih', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T223143.124.webp'],
+            ['name' => 'Pisang Raja Cere', 'slug' => 'pisang-raja-cere', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222844.320.webp'],
+            ['name' => 'Pisang Muli', 'slug' => 'pisang-muli', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222654.511.webp'],
+            ['name' => 'Pisang Siem', 'slug' => 'pisang-siem', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222449.495.webp'],
+            ['name' => 'Pisang Kepok', 'slug' => 'pisang-kepok', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T222302.180.webp'],
+            ['name' => 'Pisang Bangkawulu', 'slug' => 'pisang-bangkawulu', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T221940.571.webp'],
+            ['name' => 'Pisang Nangka', 'slug' => 'pisang-nangka', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T221629.265.webp'],
+            ['name' => 'Pisang Raja Bulu', 'slug' => 'pisang-raja-bulu', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T221324.893.webp'],
+            ['name' => 'Pisang Kapas', 'slug' => 'pisang-kapas', 'image' => '/produk/Desain-tanpa-judul-2025-10-24T220912.281.webp'],
         ];
 
         foreach ($pisangProducts as $i => $product) {
@@ -67,9 +67,9 @@ class DatabaseSeeder extends Seeder
 
         // Pisang Olahan
         $olahanProducts = [
-            ['name' => 'Keripik Pisang', 'slug' => 'keripik-pisang', 'image' => '/produk/Rizky-Pisang-4.png'],
-            ['name' => 'Sale Pisang Matang', 'slug' => 'sale-pisang-matang', 'image' => '/produk/Rizky-Pisang-2.png'],
-            ['name' => 'Sale Pisang Mentah', 'slug' => 'sale-pisang-mentah', 'image' => '/produk/Rizky-Pisang-1.png'],
+            ['name' => 'Keripik Pisang', 'slug' => 'keripik-pisang', 'image' => '/produk/Rizky-Pisang-4.webp'],
+            ['name' => 'Sale Pisang Matang', 'slug' => 'sale-pisang-matang', 'image' => '/produk/Rizky-Pisang-2.webp'],
+            ['name' => 'Sale Pisang Mentah', 'slug' => 'sale-pisang-mentah', 'image' => '/produk/Rizky-Pisang-1.webp'],
         ];
 
         foreach ($olahanProducts as $i => $product) {
@@ -82,16 +82,16 @@ class DatabaseSeeder extends Seeder
 
         // Sembako & Lainnya
         $sembakoProducts = [
-            ['name' => 'Gas 3Kg', 'slug' => 'gas-3kg', 'image' => '/produk/Rizky-Pisang-16.jpg'],
-            ['name' => 'Aneka Bumbu Dapur', 'slug' => 'aneka-bumbu-dapur', 'image' => '/produk/Rizky-Pisang-15.jpg'],
-            ['name' => 'Aneka Gula Merah', 'slug' => 'aneka-gula-merah', 'image' => '/produk/Rizky-Pisang-13.jpg'],
-            ['name' => 'Aneka Umbi', 'slug' => 'aneka-umbi', 'image' => '/produk/Rizky-Pisang-14.jpg'],
-            ['name' => 'Arang Kayu', 'slug' => 'arang-kayu', 'image' => '/produk/Rizky-Pisang-11.jpg'],
-            ['name' => 'Arang Batok Kelapa', 'slug' => 'arang-batok-kelapa', 'image' => '/produk/Rizky-Pisang-10.jpg'],
-            ['name' => 'Batok Kelapa', 'slug' => 'batok-kelapa', 'image' => '/produk/Rizky-Pisang-9.jpg'],
-            ['name' => 'Santan Kelapa', 'slug' => 'santan-kelapa', 'image' => '/produk/Rizky-Pisang-8.jpg'],
-            ['name' => 'Kelapa Parud', 'slug' => 'kelapa-parud', 'image' => '/produk/Rizky-Pisang-7.jpg'],
-            ['name' => 'Kelapa Sayur Butiran', 'slug' => 'kelapa-sayur-butiran', 'image' => '/produk/Rizky-Pisang-6.jpg'],
+            ['name' => 'Gas 3Kg', 'slug' => 'gas-3kg', 'image' => '/produk/Rizky-Pisang-16.webp'],
+            ['name' => 'Aneka Bumbu Dapur', 'slug' => 'aneka-bumbu-dapur', 'image' => '/produk/Rizky-Pisang-15.webp'],
+            ['name' => 'Aneka Gula Merah', 'slug' => 'aneka-gula-merah', 'image' => '/produk/Rizky-Pisang-13.webp'],
+            ['name' => 'Aneka Umbi', 'slug' => 'aneka-umbi', 'image' => '/produk/Rizky-Pisang-14.webp'],
+            ['name' => 'Arang Kayu', 'slug' => 'arang-kayu', 'image' => '/produk/Rizky-Pisang-11.webp'],
+            ['name' => 'Arang Batok Kelapa', 'slug' => 'arang-batok-kelapa', 'image' => '/produk/Rizky-Pisang-10.webp'],
+            ['name' => 'Batok Kelapa', 'slug' => 'batok-kelapa', 'image' => '/produk/Rizky-Pisang-9.webp'],
+            ['name' => 'Santan Kelapa', 'slug' => 'santan-kelapa', 'image' => '/produk/Rizky-Pisang-8.webp'],
+            ['name' => 'Kelapa Parud', 'slug' => 'kelapa-parud', 'image' => '/produk/Rizky-Pisang-7.webp'],
+            ['name' => 'Kelapa Sayur Butiran', 'slug' => 'kelapa-sayur-butiran', 'image' => '/produk/Rizky-Pisang-6.webp'],
         ];
 
         foreach ($sembakoProducts as $i => $product) {
@@ -106,9 +106,34 @@ class DatabaseSeeder extends Seeder
         Product::create([
             'name' => 'Ikan Lele',
             'slug' => 'ikan-lele',
-            'image' => '/produk/Rizky-Pisang-19.jpg',
+            'image' => '/produk/Rizky-Pisang-19.webp',
             'category_id' => $perikanan->id,
             'sort_order' => 1,
         ]);
+
+        // Beras
+        $beras = Category::create([
+            'name' => 'Beras',
+            'slug' => 'beras',
+            'description' => 'Menjual berbagai jenis beras',
+            'icon' => '🍚',
+            'sort_order' => 5,
+        ]);
+
+        $berasProducts = [
+            ['name' => 'Beras Jembar', 'slug' => 'beras-jembar', 'image' => '/produk/beras-jembar.webp'],
+            ['name' => 'Beras Cianjur', 'slug' => 'beras-cianjur', 'image' => '/produk/beras-cianjur.webp'],
+            ['name' => 'Beras Rojolele', 'slug' => 'beras-rojolele', 'image' => '/produk/beras-rojolele.webp'],
+            ['name' => 'Beras Subang', 'slug' => 'beras-subang', 'image' => '/produk/beras-subang.webp'],
+        ];
+
+        foreach ($berasProducts as $i => $product) {
+            Product::create([
+                ...$product,
+                'category_id' => $beras->id,
+                'sort_order' => $i + 1,
+            ]);
+        }
     }
+}
 }
