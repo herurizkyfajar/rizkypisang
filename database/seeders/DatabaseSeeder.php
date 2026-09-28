@@ -160,5 +160,33 @@ class DatabaseSeeder extends Seeder
                 'sort_order' => $i + 1,
             ]);
         }
+
+        // Minuman
+        $minuman = Category::create([
+            'name' => 'Minuman',
+            'slug' => 'minuman',
+            'description' => 'Menjual berbagai minuman',
+            'icon' => '🥤',
+            'sort_order' => 7,
+        ]);
+
+        $minumanProducts = [
+            ['name' => 'Fanta', 'slug' => 'fanta', 'image' => '/produk/fanta.webp'],
+            ['name' => 'Sprite', 'slug' => 'sprite', 'image' => '/produk/sprite.webp'],
+            ['name' => 'Coca Cola', 'slug' => 'coca-cola', 'image' => '/produk/coca-cola.webp'],
+            ['name' => 'Marjan', 'slug' => 'marjan', 'image' => '/produk/marjan.webp'],
+            ['name' => 'ABC', 'slug' => 'abc', 'image' => '/produk/abc.webp'],
+            ['name' => 'Teh Pucuk', 'slug' => 'teh-pucuk', 'image' => '/produk/teh-pucuk.webp'],
+            ['name' => 'Floridina', 'slug' => 'floridina', 'image' => '/produk/floridina.webp'],
+            ['name' => 'Mineral Botol dan Gelas', 'slug' => 'mineral-botol-dan-gelas', 'image' => '/produk/mineral-botol-dan-gelas.webp'],
+        ];
+
+        foreach ($minumanProducts as $i => $product) {
+            Product::create([
+                ...$product,
+                'category_id' => $minuman->id,
+                'sort_order' => $i + 1,
+            ]);
+        }
     }
 }
