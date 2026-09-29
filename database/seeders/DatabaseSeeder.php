@@ -92,6 +92,7 @@ class DatabaseSeeder extends Seeder
             ['name' => 'Santan Kelapa', 'slug' => 'santan-kelapa', 'image' => '/produk/Rizky-Pisang-8.webp'],
             ['name' => 'Kelapa Parud', 'slug' => 'kelapa-parud', 'image' => '/produk/Rizky-Pisang-7.webp'],
             ['name' => 'Kelapa Sayur Butiran', 'slug' => 'kelapa-sayur-butiran', 'image' => '/produk/Rizky-Pisang-6.webp'],
+            ['name' => 'Aneka Kerupuk Goreng', 'slug' => 'aneka-kerupuk-goreng', 'image' => '/produk/aneka-kerupuk-goreng.webp'],
         ];
 
         foreach ($sembakoProducts as $i => $product) {
