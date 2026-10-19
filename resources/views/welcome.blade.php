@@ -609,7 +609,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center">
-                <p class="text-gray-500 text-sm">&copy; {{ date('Y') }} Rizky Pisang. All rights reserved.</p>
+                <p class="text-gray-500 text-sm">&copy; 2026 Rizky Pisang. All Rights Reserved. Website by <a href="http://websiterakyat.id/" target="_blank" rel="noopener" class="hover:text-green-400 transition-colors">Website Rakyat</a>.</p>
             </div>
         </div>
     </footer>
